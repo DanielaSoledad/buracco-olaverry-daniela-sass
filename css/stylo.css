@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap");
+.encabezado {
+  padding: 20px; }
+
+.menu {
+  list-style-type: none;
+  background-color: black;
+  padding: 20px;
+  font-size: 20px; }
+
+.menu li {
+  display: inline;
+  margin-right: 10px; }
+
+.menu li a {
+  color: yellow;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  text-decoration: none;
+  list-style-type: none; }
+
+header {
+  display: flex;
+  height: 70px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alumni Sans Pinstripe', sans-serif; }
+
+body {
+  background-image: url("/assets/Bu2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
+h1 {
+  color: white; }
+
+h3 {
+  color: white; }
+
+h5 {
+  color: white; }
+
+.copy {
+  background-color: black;
+  align-items: center;
+  text-align: center;
+  padding: 10px; }
+
+.register2 {
+  width: 1000px;
+  height: 400px;
+  display: grid;
+  padding: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "caja3 caja3" "caja4 caja4";
+  row-gap: 30px; }
+
+.fuente {
+  font-size: 40px;
+  padding: 10px; }
+
+.fuente2 {
+  font-size: 25px;
+  padding: 10px; }

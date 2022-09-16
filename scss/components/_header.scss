@@ -1,0 +1,32 @@
+.encabezado {
+    padding: 20px; 
+}
+
+.menu {
+    list-style-type: none;
+   background-color: black;
+   padding: 20px;
+   font-size: 20px;
+ }
+   
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    }
+
+.menu li a {
+    color: yellow;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+   display: flex;
+   height: 70px;
+   background-color: black;
+   justify-content: space-between;
+   align-items: center;
+}
+
+

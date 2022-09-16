@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+.carta{
+    color: white;
+    font-size: 20px;
+    padding: 0%;
+    list-style-type: none;
+    text-shadow: 2px 2px black;
+}
+
+
+
+.fuente3 {
+    padding-left: 250px;
+}
+
+.mapa {
+display: grid;
+padding-left:  300px;
+}
+
+.fuente6 {
+    font-size: 45px;
+}
+
+.color {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.register {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+     "caja1 caja1"
+     "caja2 caja2";
+}
+
+
+
+
+.register3 {
+    width: 1000px;
+    height: 400px;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+     "caja5 caja5"
+     "caja6 caja6";
+     row-gap: 30px;
+}
+  
+.caja4 {
+    text-shadow: 2px 2px black;
+}
+
+
+@media all and (max-width: 200px) {
+    .header {
+        background-color: grey;
+    }
+}
